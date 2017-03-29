@@ -1,0 +1,360 @@
+values in root:x:0:0:root:/root:/bin/bash
+ root
+ x
+ 0
+ 0
+ root
+ /root
+ /bin/bash
+values in bin:x:1:1:bin:/bin:/sbin/nologin
+ bin
+ x
+ 1
+ 1
+ bin
+ /bin
+ /sbin/nologin
+values in daemon:x:2:2:daemon:/sbin:/sbin/nologin
+ daemon
+ x
+ 2
+ 2
+ daemon
+ /sbin
+ /sbin/nologin
+values in adm:x:3:4:adm:/var/adm:/sbin/nologin
+ adm
+ x
+ 3
+ 4
+ adm
+ /var/adm
+ /sbin/nologin
+values in lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+ lp
+ x
+ 4
+ 7
+ lp
+ /var/spool/lpd
+ /sbin/nologin
+values in sync:x:5:0:sync:/sbin:/bin/sync
+ sync
+ x
+ 5
+ 0
+ sync
+ /sbin
+ /bin/sync
+values in shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+ shutdown
+ x
+ 6
+ 0
+ shutdown
+ /sbin
+ /sbin/shutdown
+values in halt:x:7:0:halt:/sbin:/sbin/halt
+ halt
+ x
+ 7
+ 0
+ halt
+ /sbin
+ /sbin/halt
+values in mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+ mail
+ x
+ 8
+ 12
+ mail
+ /var/spool/mail
+ /sbin/nologin
+values in operator:x:11:0:operator:/root:/sbin/nologin
+ operator
+ x
+ 11
+ 0
+ operator
+ /root
+ /sbin/nologin
+values in games:x:12:100:games:/usr/games:/sbin/nologin
+ games
+ x
+ 12
+ 100
+ games
+ /usr/games
+ /sbin/nologin
+values in ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+ ftp
+ x
+ 14
+ 50
+ FTP User
+ /var/ftp
+ /sbin/nologin
+values in nobody:x:99:99:Nobody:/:/sbin/nologin
+ nobody
+ x
+ 99
+ 99
+ Nobody
+ /
+ /sbin/nologin
+values in systemd-bus-proxy:x:999:998:systemd Bus Proxy:/:/sbin/nologin
+ systemd-bus-proxy
+ x
+ 999
+ 998
+ systemd Bus Proxy
+ /
+ /sbin/nologin
+values in systemd-network:x:998:997:systemd Network Management:/:/sbin/nologin
+ systemd-network
+ x
+ 998
+ 997
+ systemd Network Management
+ /
+ /sbin/nologin
+values in dbus:x:81:81:System message bus:/:/sbin/nologin
+ dbus
+ x
+ 81
+ 81
+ System message bus
+ /
+ /sbin/nologin
+values in polkitd:x:997:996:User for polkitd:/:/sbin/nologin
+ polkitd
+ x
+ 997
+ 996
+ User for polkitd
+ /
+ /sbin/nologin
+values in abrt:x:173:173::/etc/abrt:/sbin/nologin
+ abrt
+ x
+ 173
+ 173
+ 
+ /etc/abrt
+ /sbin/nologin
+values in unbound:x:996:994:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+ unbound
+ x
+ 996
+ 994
+ Unbound DNS resolver
+ /etc/unbound
+ /sbin/nologin
+values in tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
+ tss
+ x
+ 59
+ 59
+ Account used by the trousers package to sandbox the tcsd daemon
+ /dev/null
+ /sbin/nologin
+values in colord:x:995:993:User for colord:/var/lib/colord:/sbin/nologin
+ colord
+ x
+ 995
+ 993
+ User for colord
+ /var/lib/colord
+ /sbin/nologin
+values in usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+ usbmuxd
+ x
+ 113
+ 113
+ usbmuxd user
+ /
+ /sbin/nologin
+values in geoclue:x:994:991:User for geoclue:/var/lib/geoclue:/sbin/nologin
+ geoclue
+ x
+ 994
+ 991
+ User for geoclue
+ /var/lib/geoclue
+ /sbin/nologin
+values in saslauth:x:993:76:Saslauthd user:/run/saslauthd:/sbin/nologin
+ saslauth
+ x
+ 993
+ 76
+ Saslauthd user
+ /run/saslauthd
+ /sbin/nologin
+values in libstoragemgmt:x:992:990:daemon account for libstoragemgmt:/var/run/lsm:/sbin/nologin
+ libstoragemgmt
+ x
+ 992
+ 990
+ daemon account for libstoragemgmt
+ /var/run/lsm
+ /sbin/nologin
+values in rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+ rpc
+ x
+ 32
+ 32
+ Rpcbind Daemon
+ /var/lib/rpcbind
+ /sbin/nologin
+values in rtkit:x:172:172:RealtimeKit:/proc:/sbin/nologin
+ rtkit
+ x
+ 172
+ 172
+ RealtimeKit
+ /proc
+ /sbin/nologin
+values in chrony:x:991:988::/var/lib/chrony:/sbin/nologin
+ chrony
+ x
+ 991
+ 988
+ 
+ /var/lib/chrony
+ /sbin/nologin
+values in radvd:x:75:75:radvd user:/:/sbin/nologin
+ radvd
+ x
+ 75
+ 75
+ radvd user
+ /
+ /sbin/nologin
+values in qemu:x:107:107:qemu user:/:/sbin/nologin
+ qemu
+ x
+ 107
+ 107
+ qemu user
+ /
+ /sbin/nologin
+values in ntp:x:38:38::/etc/ntp:/sbin/nologin
+ ntp
+ x
+ 38
+ 38
+ 
+ /etc/ntp
+ /sbin/nologin
+values in rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+ rpcuser
+ x
+ 29
+ 29
+ RPC Service User
+ /var/lib/nfs
+ /sbin/nologin
+values in nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+ nfsnobody
+ x
+ 65534
+ 65534
+ Anonymous NFS User
+ /var/lib/nfs
+ /sbin/nologin
+values in avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
+ avahi-autoipd
+ x
+ 170
+ 170
+ Avahi IPv4LL Stack
+ /var/lib/avahi-autoipd
+ /sbin/nologin
+values in setroubleshoot:x:990:987::/var/lib/setroubleshoot:/sbin/nologin
+ setroubleshoot
+ x
+ 990
+ 987
+ 
+ /var/lib/setroubleshoot
+ /sbin/nologin
+values in sssd:x:989:986:User for sssd:/:/sbin/nologin
+ sssd
+ x
+ 989
+ 986
+ User for sssd
+ /
+ /sbin/nologin
+values in pulse:x:171:171:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+ pulse
+ x
+ 171
+ 171
+ PulseAudio System Daemon
+ /var/run/pulse
+ /sbin/nologin
+values in gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+ gdm
+ x
+ 42
+ 42
+ 
+ /var/lib/gdm
+ /sbin/nologin
+values in gnome-initial-setup:x:988:983::/run/gnome-initial-setup/:/sbin/nologin
+ gnome-initial-setup
+ x
+ 988
+ 983
+ 
+ /run/gnome-initial-setup/
+ /sbin/nologin
+values in sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+ sshd
+ x
+ 74
+ 74
+ Privilege-separated SSH
+ /var/empty/sshd
+ /sbin/nologin
+values in avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+ avahi
+ x
+ 70
+ 70
+ Avahi mDNS/DNS-SD Stack
+ /var/run/avahi-daemon
+ /sbin/nologin
+values in postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+ postfix
+ x
+ 89
+ 89
+ 
+ /var/spool/postfix
+ /sbin/nologin
+values in tcpdump:x:72:72::/:/sbin/nologin
+ tcpdump
+ x
+ 72
+ 72
+ 
+ /
+ /sbin/nologin
+values in jiang:x:1000:1000:jiang:/home/jiang:/bin/bash
+ jiang
+ x
+ 1000
+ 1000
+ jiang
+ /home/jiang
+ /bin/bash
+values in lightdm:x:987:982::/var/lib/lightdm:/sbin/nologin
+ lightdm
+ x
+ 987
+ 982
+ 
+ /var/lib/lightdm
+ /sbin/nologin

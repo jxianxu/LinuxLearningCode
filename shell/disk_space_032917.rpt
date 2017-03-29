@@ -1,0 +1,26 @@
+Top Ten Disk Space Usage
+for /var/log /home Directories
+
+The /var/log Directory:
+1:	25888	/var/log/sa
+2:	15700	/var/log/audit
+3:	3252	/var/log
+4:	2348	/var/log/anaconda
+5:	148	/var/log/cups
+6:	72	/var/log/gdm
+7:	52	/var/log/lightdm
+8:	8	/var/log/tuned
+9:	0	/var/log/sssd
+10:	0	/var/log/speech-dispatcher
+
+The /home Directory:
+1:	90948	/home/jiang/src/Firmware/.git/objects/pack
+2:	74416	/home/jiang/src/Firmware/.git/modules/NuttX/objects/pack
+3:	72068	/home/jiang
+4:	57208	/home/jiang/src/Firmware/.git/modules/Tools/sitl_gazebo/objects/pack
+5:	50512	/home/jiang/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3
+6:	29648	/home/jiang/.cache/mozilla/firefox/8q885msr.default/cache2/entries
+7:	27728	/home/jiang/src/Firmware
+8:	26664	/home/jiang/src/Firmware/.git/modules/Tools/jMAVSim/objects/pack
+9:	20536	/home/jiang/src/Firmware/.git/modules/src/lib/ecl/objects/pack
+10:	15932	/home/jiang/soft/sublime_text_3
